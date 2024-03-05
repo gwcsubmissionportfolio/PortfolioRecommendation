@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio Optimization Project</title>
+</head>
+<body>
+<h1>Objective:</h1>
+<ul>
+  <li>Portfolio optimization involves selecting the best asset distribution from a set of all possible portfolios to achieve certain criteria, such as maximizing expected return while minimizing financial risk.</li>
+<li>This process typically involves adjusting the weights of asset classes and assets within each class according to individual preferences, which are determined by a unique utility function.</li>
+<li>In this project, we aim to create and analyze portfolios using stocks from the S & P Index, extracting log returns data from Yahoo Finance API and comparing them to the TSX benchmark index.</li>
+<li>The goal is to identify the optimal portfolio through CAPM analysis and portfolio optimization techniques.</li></ul>
+<h1>Data Description:</h1>
+<ul>
+  <li>We will extract a list of actively traded companies from Wikipedia and obtain log returns data for these stocks using Yahoo Finance API.</li></ul>
+<h1>Aim:</h1>
+<ul>
+  <li>To perform CAPM analysis on stocks and identify the best-suited portfolio using portfolio optimization methods.</li></ul>
+<h1>Tech Stack:</h1>
+<ul>
+  <li>Language: R</li>
+  <li>Libraries: tidyverse, tidyquant, htmltab, dplyr, rlang</li>
+</ul>
+<h1>Approach:</h1>
+<ol>
+  <li><a href="S&P_Tickers.png">Extract the list of stocks in S&P index from Wikipedia.</a></li>
+  <li><a href="Log_Returns_S&P.png">Obtain log returns data for S&P index.</a></li>
+  <li><a href="Log_Returns_XLK.png">Obtain log returns data for XLK index.</a></li>
+  <li><a href="CAPM_Analysis.png">Conduct CAPM analysis on the data.</a></li>
+  <li><a href="Top_Percentile_Stocks.png">Identify the top percentile of stocks based on performance.</a></li>
+  <li><a href="Portfolio_Matrix.png">Create portfolios matrix using the top-performing stocks.</a></li>
+  <li><a href="CAPM_100_Portfolios.png">Perform CAPM analysis on the multiple portfolios.</a></li>
+  <li><a href="CAPM_Indicator_Analysis">Select the suitable portfolio based on CAPM analysis and portfolio matrix evaluation.</a></li>
+  <li><a href="Top1_VS_XLK.png">Top Percentile performance against benchmark.</a></li>
+  <li><a href="Top5_Percentile.png">Top 5 portfolio performance.</a></li>
+  
+</ol>
+</body>
+</html>
