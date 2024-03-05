@@ -17,7 +17,7 @@
 - Libraries: tidyverse, tidyquant, htmltab, dplyr, rlang
 
 ## Approach:
-1. [Extract the list of stocks in S&P index from Wikipedia.](S&P_Tickers.png)
+1. [Extract the list of stocks in S&P index from Wikipedia.](images/S&P_Tickers.png)
 2. [Obtain log returns data for S&P index.](Log_Returns_S&P.png)
 3. [Obtain log returns data for XLK index.](Log_Returns_XLK.png)
 4. [Conduct CAPM analysis on the data.](CAPM_Analysis.png)
