@@ -6,6 +6,7 @@
 - This process typically involves adjusting the weights of asset classes and assets within each class according to individual preferences, which are determined by a unique utility function.
 - In this project, we aim to create and analyze portfolios using stocks from the S & P Index, extracting log returns data from Yahoo Finance API and comparing them to the TSX benchmark index.
 - The goal is to identify the optimal portfolio through CAPM analysis and portfolio optimization techniques.
+
 **LSTM**
 - The time series data is sourced from the portfolio optimization application.
 - To ensure consistency and comparability across different features, the data undergoes transformations such as feature scaling or normalization.
