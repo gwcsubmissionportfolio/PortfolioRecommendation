@@ -24,6 +24,9 @@
 - Language: Python, R
 - Libraries: Keras, LSTM, pandas, numpy, sklearn, matplotlib, tidyverse, tidyquant, htmltab, dplyr, rlang
 
+## Colab Link for LSTM
+https://colab.research.google.com/drive/1tiDRj212sU-aAces1TVrkjUPxE819w1t?usp=sharing
+
 ## Approach:
 1. [Extract the list of stocks in S&P index from Wikipedia.](images/S&P_Tickers.png)
 2. [Obtain log returns data for S&P index.](images/Log_Returns_S&P.png)
