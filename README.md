@@ -35,3 +35,4 @@
 8. [Select the suitable portfolio based on CAPM analysis and portfolio matrix evaluation.](images/CAPM_Indicator_Analysis.png)
 9. [Top Percentile performance against benchmark.](images/Top1_VS_XLK.png)
 10. [Top 5 portfolio performance.](images/Top5_Percentile.png)
+11. [LSTM model training and portfolio prediction.](images/LSTM Analysis of the Top Portfolio.png)
