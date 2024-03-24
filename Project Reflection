@@ -1,0 +1,38 @@
+Project Reflection
+
+* How does your project use AI to help people with their finances in a way that hasn't been done before?
+     			
+Not everyone has access to large investment firms which demand high fees and minimum investment requirements. 
+That's why I envisioned creating an analysis and recommendation app accessible to all, offering investment suggestions that people can explore further.
+We created multiple portfolios based on top performing stocks from the S&P index, and then used CAPM analysis to elect the stocks or assets in these portfolios. 
+Then, we feed this into LSTM, the AI component of this project, to predict the performance of these stocks. 
+This project serves as an accessible resource that combines not only the CAPM analysis but uses the power of the AI LSTM. 
+While researching preexisting analysis tools, most stopped at CAPM analysis yet we took a step further, combining the LSTM component to predict performance, 
+which is important to present as an accessible resource for all to create successful portfolios.
+
+* Describe a challenge you faced. How did you overcome it? How did you reach out for help?
+
+My prior experience in AI ML is mostly in python, so I initially sought to develop this project in python. 
+However, I was unable to find the libraries to perform the CAPM analysis in python so I switched to using the R language for creating this project. 
+Since R was a new language for me, I had to o extra research on my part to familiarize myself with the language. 
+In addition, I had to develop my understanding of investment banking terminology while creating my project, which was a hurdle for me as this subject was new to me. 
+To aid in my understanding of this topic I utilized online resources such as videos and articles to help me gain a good foundation on 
+the concepts of investment banking that would help to to create an effective  portfolio optimizer.
+
+* What did you learn from this process that will impact the way you interact with technology in the future?
+
+My project added on to previous models by adding the AI, LSTM , component that many existing portfolio optimizers did not have. 
+This AI component helped to take its effectiveness to the next level. 
+Now I realize that similar to investment baking and portfolio building, skills or tasks in any field can be optimized with the help of AI. 
+Although we can never truly be purely dependent on AI, the mix of both human analysis and that of AI develops the complexity and efficiency of any model. 
+So, any task that society completes daily can be optimized and improved with the addition of AI, even on smaller scales, 
+combined with the preexisting human experience with the task that creates an effective product or optimizes the task further.
+
+* Why did you choose this format for your project?
+
+My project can expanded and improved on further in the future to create a more refined product that can possibly be deployed into an application. 
+This way, even people who do not qualify for existing investment banking services because of their socio-economic 
+status or people who lack adequate knowledge to build a diverse portfolio themselves can gain access to this resource. 
+This accessibility reduces inequalities in investment banking helps to provide a tangible resource for all to improve, create, and build onto their portfolios. 
+However, the tangible resource could not be provided if I chose a different formate such as a presentation, song, poem, poster, animation, or piece of writing. 
+Thus, I chose the format of writing a program that provides this accessibility and can be expanded into this tangible resource to reduce inequalities for all in investment banking.
